@@ -1,0 +1,84 @@
+{
+  "packages": [
+    {
+      "id": "1",
+      "name": "Super Saver Dubai",
+      "image": "../Assets/assets/images/dubaiT1.png",
+      "destination": "dubai",
+      "description": "Welcome to Dubai! This product is meant for budget travelers to Dubai, also for a shorter stay. It comes at a attractive price for travelers to book and save more than 20% on the overall trip. Select from our curated list of hotels for the best experience.",
+      "price": "₹ 44,699"
+    },
+    {
+      "id": "2",
+      "name": "Dubai Extravaganza",
+      "image": "../Assets/assets/images/dubaiT2.png",
+      "destination": "dubai",
+      "description": "Our “Dubai Extravaganza” package offers you a delighting experience with must see sight seeing’s in Dubai and also experience Aya Universe which will be an unforgettable experience. You will also visit Abu dhabi and will go on Abu dhabi city tour and visit the maginificient Grand mosque.",
+      "price":"₹ 51,099"
+    },
+    {
+      "id": "3",
+      "name": "Dubai Jain Tour",
+      "image": "../Assets/assets/images/dubaiT3.png",
+      "destination": "dubai",
+      "description": "This tour is designed for Indian travelers seeking a complete Dubai experience but making sure their specific food requirements (pure veg and jain food) are met during the trip. The tour covers stay at a 4 star hotel (which serve Indian breakfast). All important sights in Dubai are covered over a span of 5 days with the last day kept for shopping before returning back to India. All meals (lunches and dinners) are served in pure veg restaurants in a mix of thali or buffet arrangement.",
+      "price":"₹ 78,999"
+    },
+    {
+      "id": "4",
+      "name": "Memorable Bali for Couples with Pool Villa",
+      "destination":"bali",
+      "image": "../Assets/assets/images/baliT1.png",
+      "description": "Embark on an unforgettable honeymoon in Bali, beginning with a warm welcome and a short transfer to your luxurious Kuta hotel. Savor rejuvenating Balinese massages and mesmerizing sunsets at Tanah Lot Temple. Capture thrilling moments on the Aloha Swing in Ubud and explore serene temples and majestic waterfalls in North Bali. Immerse in the beauty of Uluwatu's cliffs, witness the captivating Kecak dance, and enjoy a romantic dinner at Jimbaran Bay. Experience the tranquility of a pool villa and delve into Bali’s cultural heart with visits to Cepung Waterfall, Kehen Temple, and Kintamani. Enjoy a leisurely day at your villa before a heartfelt farewell, leaving you with cherished memories of Bali’s enchanting charm.",
+      "price": "₹ 85,999"
+    },
+    {
+      "id": "5",
+      "name": "Super Saver Bali",
+      "destination":"bali",
+      "image": "../Assets/assets/images/baliT2.png",
+      "description": "Bali, a magical island in Indonesia, is a fantastic place for a vacation. With its beautiful beaches, lush greenery...",
+      "price": "₹ 63,299"
+    },
+    {
+      "id": "6",
+      "name": "Glimpses of Europe 2025",
+      "image": "../Assets/assets/images/parisT1.png",
+      "destination":"paris",
+      "description": "A Bestseller Tour, it offers a short experience in Europe at an affordable budget. The tour is medium paced (days usually start at 9 am in the morning and ends by 9 pm). It involves stay in comfortable 4 star hotels (typically in the outskirts of cities between 25-30 km from city center). There are delicious Indian meals provided on tour and also a full time experienced tour manager (who speaks Hindi and English) accompanies the group to take care of their needs.",
+      "price": "₹ 192,869"
+    },
+    {
+      "id": "7",
+      "name": "Swiss Paris at a Glance",
+      "image": "../Assets/assets/images/parisT2.png",
+      "destination":"paris",
+      "description": "Embark on a journey through Europe where each moment is a tapestry of breathtaking experiences. Start your adventure in Zurich, indulging in a leisurely shopping spree and soaking in the city’s charm. Ascend to Mt. Titlis, where you’ll be awed by the majestic snow-capped peaks and the thrilling sensation of the world’s first revolving cable car. Wander through picturesque streets, absorbing the beauty of alpine landscapes and ancient monuments. Feel the rush of excitement as you explore the iconic landmarks of Paris, from the Eiffel Tower’s panoramic views to a serene cruise along the Seine, flanked by stunning historical architecture. Dive into the magic of Disneyland Paris, where fantasy comes alive in vibrant parades and exhilarating rides. As your journey concludes, carry with you a treasure trove of unforgettable moments and a heart full of European enchantment.",
+      "price": "₹ 174,990"
+    },
+    {
+      "id": "8",
+      "name": "Italy Swiss Paris",
+      "image": "../Assets/assets/images/parisT3.png",
+      "destination":"paris",
+      "description": "Italy, the city of romance and art. If passion was a country, Italy would be it. This trip will take you through some of the most historically passionate time in Italy, starting from Rome where the Vatican City stands. Then head to the Basilica of St. Peter’s which is one of Michelangelo and Bernini’s masterpiece. In Rome, the Colosseum remains as one of the most iconic landmarks, an amphitheatre that was where the city’s best entertainment was served. It’s so well-preserved, much like the Trevi Fountains that can be found on the intersection of Via De’Crocicchi, Via Poli and Via Delle Muratte. Hop on a boat from Capri, that’ll take you to the mesmerizing Blue Grotto, a small cavern where the azure water glows. We’ll then make a day trip to the small towns of Amalfi, Sorrento, and Positano. Then we drive to Florence, home to a number of stunning architectures, such as Duomo di Firenze or the Cathedral of Saint Mary of the Flower. Giotto’s Campanile is where you can get the best view of the Cathedral. The Florence Baptistery is where you can see the Gates of Paradise that was made by a goldsmith and sculptor depicting scenes in the Old Testament. Take in the view from Piazzale Michelangelo for the best view of the city. We’re definitely not missing out on the leaning Tower of Pisa while on our way to Venice. Take a Gondola ride through the canals and visit the main square, St. Mark’s Square. Before we head back home from Milan, we’ll make a stop at the world’s fifth largest Christian church, Duomo di Milano and shop at Galleria.",
+      "price":"₹ 235,353"
+    },
+    {
+      "id": "9",
+      "name": "Majestic Australia",
+      "destination":"australia",
+      "image": "../Assets/assets/images/australiaT1.png",
+      "description": "Experience a captivating journey through Australia’s vibrant cities and stunning landscapes. Begin in Melbourne, Australia's Sports Capital, where you’ll explore iconic landmarks including the Melbourne Cricket Ground and enjoy the charming sights of Phillip Island. Traverse the scenic Great Ocean Road to marvel at the Twelve Apostles and the rugged Shipwreck Coast. Continue your adventure with a drive to Canberra, where you’ll discover significant sites like Mount Ainslie and the New Parliament House. Next, journey to Sydney, where you’ll be awed by the Sydney Opera House, Bondi Beach, and take in views from the Harbour Bridge and Darling Harbour. Your exploration continues with a thrilling excursion to the Blue Mountains, featuring breathtaking views, the Scenic World rides, and Echo Point. Conclude your trip with reflections on a memorable Australian adventure before heading home.",
+      "price":"₹ 200,842"
+    },
+    {
+      "id": "10",
+      "name": "Wonders of Australia",
+      "destination":"australia",
+      "image": "../Assets/assets/images/australiaT2.png",
+      "description": "Experience the best of Australia with this 10-day itinerary. Begin in Sydney with a city tour, exploring landmarks like Darling Harbour and Bondi Beach. Choose between Sydney Aquarium or Wildlife World and visit iconic attractions such as the Sydney Tower or Madame Tussauds. Venture to the Blue Mountains for scenic wonders and wildlife encounters, then transfer to the Gold Coast for leisure and theme park thrills at Movie World and Sea World. Continue to Melbourne, where highlights include Phillip Island's penguin parade, Brighton Beach, and Moonlit Sanctuary. Conclude the trip with the renowned Great Ocean Road Tour, featuring the stunning 12 Apostles. Depart from Melbourne with cherished memories of diverse landscapes, wildlife, and cultural experiences. Safe travels!",
+      "price":"₹ 298,429"
+    }
+  ]
+}

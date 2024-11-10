@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Page</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="tours.css" rel="stylesheet">
+  <link href="t.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+  <header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+    <nav class="navbar">
+        <a href="Front.html">Home</a>
+        <a href="front">Book</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>   
+        <a href="#tours">Tours</a> 
+    </nav>
+      <div class="icons">
+        <button id="mode">MODE</button>
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+  </div>
+  <form class="search-bar-container" id="search-bar-container">
+      <input type="search" id="search-bar" placeholder="Search here...">
+      <label for="search-bar" class="fas fa-search"></label>
+      <ul id="suggestions" class="suggestions-list"></ul>
+  </form>
+
+</header>
+  <div class="login-form-container" id="login-form">
+    <i id="form-close" class="fas fa-times"></i>
+    <form>
+        <h3>LOGIN</h3>
+        <input type="text" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="Login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>Forgot Password? <a href="#">Click Here</a></p>
+        <p>Don't Have an Account? <a href="#">Register Now</a></p>
+    </form>
+</div>
+
+  <div class="hero">
+    <div class="container">
+      <h1>Find Your Next Stay</h1>
+      <div class="search-bar">
+        <form>
+          <div class="location-input">
+            <label>Location</label>
+            <input type = "text" placeholder = "Where are You going?">
+          </div>
+
+          <div>
+            <label>Check in</label>
+            <input type = "text" placeholder = "Add Date">
+          </div>
+
+          <div>
+            <label>Check out</label>
+            <input type = "text" placeholder = "Add Date">
+          </div>
+
+          <div>
+            <label>Guest</label>
+            <input type = "text" placeholder = "Add Guest">
+          </div>
+          <button type="submit"><img src="./Assets/assets/images/search.png"></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="sub-title">Exclusives</h2>
+    <div class="exclusives">
+      
+      <div>
+        <img src="./Assets/assets/images/image-1.png">
+        <span>
+          <h3>London</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-2.png">
+        <span>
+          <h3>Switzerland</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <a href="tourPages/australia.html">
+        <img src="./Assets/assets/images/image-3.png">
+        </a>
+        <span>
+          <h3>Australia</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-4.png">
+        <span>
+          <h3>France</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-5.png">
+        <span>
+          <h3>Amsterdam</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-6.png">
+        <span>
+          <h3>Netherlands</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-7.png">
+        <span>
+          <h3>New York</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-8.png">
+        <span>
+          <h3>Chicago</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-9.png">
+        <span>
+          <h3>San Francisco</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/image-10.png">
+        <span>
+          <h3>Shanghai</h3>
+          <p>Starts @ 50k</p>
+        </span>
+      </div>
+    </div>
+
+    <h2 class="sub-title">Trending Places</h2>
+    <div class="trending">
+      <div id="dubai">
+        <img src="./Assets/assets/images/dubai.png">
+        <h3>Dubai</h3>
+      </div>
+      <div id="bali">
+        <img src="./Assets/assets/images/bali.png">
+        <h3>Bali</h3>
+      </div>
+      <div id="paris">
+        <img src="./Assets/assets/images/paris.png">
+        <h3>Paris</h3>
+      </div>
+      <div id="australia">
+        <img src="./Assets/assets/images/australia.png">
+        <h3>Australia</h3>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>Sharing <br>Is Earning Now</h3>
+      <p>Great opportunity to make money by <br>sharing your extra space.</p>
+      <a href="#" class="cta-btn">Know More</a>
+    </div>
+
+    <h2 class="sub-title">Travellers Stories</h2>
+    <div class="stories">
+      <div>
+          <img src="./Assets/assets/images/story-1.png">
+          <p>Popular European countries with a budget of just 150k</p>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/story-2.png">
+        <p>Travelled more than 100 countries in less than a year</p>
+      </div>
+      <div>
+        <img src="./Assets/assets/images/story-3.png">
+        <p>Best experience you get while travelling to Thailand.</p>
+      </div>
+    </div>
+
+    <a href="#" class="start-btn">Start making money</a>
+
+    <div class="about-msg">
+      <h2>About TRAVEL</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet perspiciatis velit inventore. Ipsa itaque, laboriosam ab, autem illum rem libero dolorum labore, iste deleniti laborum modi porro architecto nostrum nobis Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et distinctio sequi soluta voluptates dolor minima maiores? Suscipit, et cupiditate alias, id consequatur quasi, reiciendis adipisci soluta eos tempora non</p>
+    </div>
+  </div>
+
+    <section class="footer">
+      <div class="box-container">
+          <div class="box">
+              <h3>About us</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+          <div class="box">
+              <h3>Branch Locations</h3>
+              <a href="#">India</a>
+              <a href="#">USA</a>
+              <a href="#">Japan</a>
+              <a href="#">France</a>
+          </div>
+          <div class="box">
+              <h3>Quick Links</h3>
+              <a href="#">Home</a>
+              <a href="#">Book</a>
+              <a href="#">Packages</a>
+              <a href="#">Services</a>
+              <a href="#">gallery</a>
+              <a href="#">review</a>
+              <a href="#">Contact</a>
+          </div>
+          <div class="box">
+              <h3>Follow Us</h3>
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">twitter</a>
+              <a href="#">linkedin</a>
+          </div>
+      </div>
+      <h1 class="credit"> created by <span> RIA KHURANA</span> all rights reserved</h1>
+  </section>
+
+
+
+  <script src="s.js"></script>
+  <script src="tours.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
